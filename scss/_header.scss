@@ -1,0 +1,10 @@
+header{
+  width: 100%;
+  background-color: red;
+  transition:   background-color 0.35s ease-in;
+  @extend %z-5;
+}
+
+header:hover{
+  background-color: blue;
+}
