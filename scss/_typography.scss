@@ -1,0 +1,56 @@
+html {
+  font-size: 10px; // static
+}
+
+ol, ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-size: 1.4rem;
+  margin: 0;
+}
+
+// Links
+// -------------------------
+
+a,
+.link {
+  text-decoration: none;
+  //color: $colorLink;
+
+  &:hover,
+  &:focus {
+
+    text-decoration: underline;
+  }
+}
+
+img {
+  vertical-align: middle;
+}
+
+.h1,
+.h2,
+.h2,
+.h3,
+.h4,
+.h5,
+.h6{
+  //color: $colorText;
+}
+
+p {
+  padding: 20rem 10rem;
+  font: 1.8rem 'Open Sans', sans-serif;
+}
+
+.large{
+  font-size: 6.8rem;
+}
+
+.small{
+  font-size: 1.4rem;
+}
