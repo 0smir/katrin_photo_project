@@ -1,0 +1,9 @@
+@import "../core";
+header{
+  background-color: red;
+  transition:   background-color 0.35s ease-in;
+}
+
+header:hover{
+  background-color: blue;
+}
