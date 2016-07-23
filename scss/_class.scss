@@ -83,3 +83,37 @@
 .text-justify {
   text-align: justify;
 }
+
+.table{
+  display: table;
+}
+
+.table-cell{
+  display: table-cell;
+  vertical-align: middle;
+}
+
+.center-block{
+  margin: 0 auto;
+}
+
+//---background color----
+
+.bg-gray{
+  &.bg-gray{
+    background-color: $transparentGray;
+  }
+}
+
+.bg-black{
+  &.bg-black{
+    background-color: $black;
+  }
+}
+
+//----text color---
+.text-white{
+  &.text-white{
+    color: $white;
+  }
+}
