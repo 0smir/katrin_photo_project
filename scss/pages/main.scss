@@ -7,6 +7,37 @@
   outline: 1px solid yellow;
 }
 
+header{
+
+  #navigation li:nth-child(n+2)>a::after,
+  #navigation li:nth-child(n+2)>a::before {
+    opacity: 0;
+    transition: all 0.35s ease;
+
+  }
+
+  #navigation li:nth-child(n+2)>a::after{
+    bottom: 0;
+    transform: translateY(1rem);
+
+  }
+
+  #navigation li:nth-child(n+2)>a::before{
+    top: 0;
+    transform: translateY(-1rem);
+  }
+
+  #navigation li:nth-child(n+2)>a:hover::after,
+  #navigation li:nth-child(n+2)>a:hover::before {
+    opacity: 1;
+  }
+
+  #navigation li:nth-child(n+2)>a:hover::after,
+  #navigation li:nth-child(n+2)>a:hover::before{
+    transform: translateY(0);
+  }
+}
+
 .banner{
   background-image: url(../../images/velobig2.jpg);
   background-repeat: no-repeat;

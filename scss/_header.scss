@@ -5,7 +5,6 @@ header{
   border-bottom: 1px solid $iron;
   min-height: 9rem;
   padding-top: 2rem;
-  //line-height: 9rem;
 
 
   .h1,
@@ -35,6 +34,15 @@ header{
     top: 40%;
   }
 
+  #navigation li>a::after,
+  #navigation li>a::before{
+    content: ' ';
+    display: block;
+    width: 100%;
+    height: 2px;
+    background-color: $white;
+    position: absolute;
+  }
 
   #social{
     width: 11rem;
