@@ -9,7 +9,7 @@ ol, ul {
 }
 
 body {
-  font-size: 1.4rem;
+  font-size: 1.8rem;
   margin: 0;
 }
 
@@ -24,7 +24,7 @@ a,
   &:hover,
   &:focus {
 
-    text-decoration: underline;
+    text-decoration: none;
   }
 }
 
@@ -42,8 +42,11 @@ img {
   //color: $colorText;
 }
 
+.h1{
+  font-family: 'Pacifico', cursive;
+}
+
 p {
-  padding: 20rem 10rem;
   font: 1.8rem 'Open Sans', sans-serif;
 }
 
