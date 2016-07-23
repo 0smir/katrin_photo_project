@@ -1,0 +1,14 @@
+@import "../reset";
+@import "../core";
+@import "../header";
+
+
+.row{
+  outline: 1px solid yellow;
+}
+
+.banner{
+  background-image: url(../../images/velobig2.jpg);
+  background-repeat: no-repeat;
+  height: 800px;
+}
