@@ -1,10 +1,54 @@
+
 header{
   width: 100%;
-  background-color: red;
-  transition:   background-color 0.35s ease-in;
   @extend %z-5;
-}
+  border-bottom: 1px solid $iron;
+  min-height: 9rem;
+  padding-top: 2rem;
+  //line-height: 9rem;
 
-header:hover{
-  background-color: blue;
+
+  .h1,
+  #navigation,
+  #social{
+    outline: 1px solid red;
+  }
+
+  #navigation li{
+    font-family: georgia, palatino;
+    margin: 1.3rem 5rem 1.3rem 0;
+    position: relative;
+  }
+
+  #navigation li:last-child{
+    margin-right: 0;
+  }
+
+  #navigation li:nth-child(n+1):nth-child(-n+4)::after{
+    display: block;
+    content: ' ';
+    background-color: $white;
+    height: 5px;
+    width: 5px;
+    position: absolute;
+    right: -2.8rem;
+    top: 40%;
+  }
+
+
+  #social{
+    width: 11rem;
+  }
+
+  #social a{
+    height: 3rem;
+    width: 3rem;
+    line-height: 3rem;
+    vertical-align: middle;
+  }
+
+  #social li{
+    margin: 1rem 0.5rem 1.1rem 0;
+  }
+
 }
