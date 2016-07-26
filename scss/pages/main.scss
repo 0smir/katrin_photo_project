@@ -3,9 +3,9 @@
 @import "../header";
 
 
-.row{
-  outline: 1px solid yellow;
-}
+//.row{
+//  outline: 1px solid yellow;
+//}
 
 header{
 
@@ -42,4 +42,9 @@ header{
   background-image: url(../../images/velobig2.jpg);
   background-repeat: no-repeat;
   height: 800px;
+  box-shadow: inset 0px 1200px 1px 1px $smog;
+
+  hr{
+    border-top: 1px solid $white;
+  }
 }

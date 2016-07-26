@@ -2,11 +2,13 @@
   width: 16.5rem;
   height: 4.5rem;
   display: block;
+  margin-top: 8rem;
 }
 
 .outline{
   border: 1px solid $white;
   color: $white;
+  background-color: transparent;
   text-align: center;
 
   &.outline:hover{
